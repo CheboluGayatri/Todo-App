@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    <div class="wrapper card">
+        <div class="header">
+            <img src="icons/download_done_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" width="36" height="36" alt="Logo" class="header-icon">
+            <h1>Todo App</h1>
+        </div>
+        <form class="todo-form">
+            <input id="todo-input" type="text" 
+            placeholder="Add a new task..." autocomplete="off">
+            <button id="add-button" title="Add">
+                <img src="icons/download_done_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" width="24" height="24" alt="Add">
+            </button>
+        </form>
+        <ul id="todo-list">
+            <!-- Todo items will be dynamically added here -->
+        </ul>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
